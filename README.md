@@ -1,4 +1,4 @@
-# DBT-Snowflake-Airflow-Netflix-dataset-
+# DBT-Snowflake-Airflow-Movie-dataset
 
 This repository demonstrates a **data engineering workflow** using **dbt**, **Snowflake**, and **Airflow**, applied to the **Netflix dataset**.
 
