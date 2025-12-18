@@ -1,0 +1,6 @@
+dataset/
+.vscode/
+logs/
+venv/
+snowflakenetflixuser_accessKeys.csv
+*.png
