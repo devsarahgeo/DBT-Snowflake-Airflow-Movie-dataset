@@ -7,13 +7,16 @@ This repository demonstrates a **data engineering workflow** using **dbt**, **Sn
 💼 **Business Problem**  
 Analysts and data engineers often need reliable pipelines to transform raw datasets into **analysis-ready tables**. This Movie Streaming dataset project automates data ingestion, ensures data quality, and enable insights without manual intervention. This project addresses the end-to-end workflow from **raw data in Snowflake** to **analysis-ready tables** via dbt models orchestrated with Airflow.
 
+<img width="1113" height="1026" alt="Screenshot 2025-12-18 at 10 53 39 PM" src="https://github.com/user-attachments/assets/d081bd6a-1bd3-4278-b94d-76fd26aa9d67" />
+
+
 ⚙️ **Methodology**  
 
 1. **Data Ingestion & Loading**  
    - Loaded Movie CSV datasets into Snowflake  
    - Configured dbt seeds for small reference tables
    - Used Airflow DAGs to automate dbt runs on a schedule
-<img width="1160" height="754" alt="airflow" src="https://github.com/user-attachments/assets/3684d8df-d321-489e-b500-0d8b49c17442" />
+<img width="965" height="766" alt="Screenshot 2025-12-18 at 10 57 20 PM" src="https://github.com/user-attachments/assets/8a6997eb-e64d-4893-8836-dee1421f7f55" />
 
 2. **Data Transformation with dbt**  
    - Created **dimension (`dim`) tables**: movies, users, tags.  
@@ -31,7 +34,6 @@ Analysts and data engineers often need reliable pipelines to transform raw datas
 <img width="1823" height="880" alt="s- anlaysis" src="https://github.com/user-attachments/assets/ee61e187-bf51-480f-9eba-5f2a94fcc5b6" />
       
    - Applied dbt tests to ensure data quality.
-<img width="1113" height="1026" alt="Screenshot 2025-12-18 at 10 53 39 PM" src="https://github.com/user-attachments/assets/6d0908f5-c296-4663-bb8a-837a97198050" />
 
 3. **Workflow Orchestration with Airflow**  
    - Scheduled dbt runs daily via Airflow DAGs.  
