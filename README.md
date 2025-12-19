@@ -6,8 +6,7 @@ This repository demonstrates a **data engineering workflow** using **dbt**, **Sn
 ---
 💼 **Business Problem**  
 Analysts and data engineers often need reliable pipelines to transform raw datasets into **analysis-ready tables**. This Movie Streaming dataset project automates data ingestion, ensures data quality, and enable insights without manual intervention. This project addresses the end-to-end workflow from **raw data in Snowflake** to **analysis-ready tables** via dbt models orchestrated with Airflow.
-<img width="1120" height="1033" alt="Screenshot 2025-12-19 at 10 50 15 AM" src="https://github.com/user-attachments/assets/4944e205-ff09-4836-8b0e-b7bda3dc33e2" />
-
+<img width="1162" height="1050" alt="Screenshot 2025-12-19 at 10 51 58 AM" src="https://github.com/user-attachments/assets/d70386ce-6830-4e46-9973-d2991ad52b0a" />
 
 ⚙️ **Methodology**  
 
