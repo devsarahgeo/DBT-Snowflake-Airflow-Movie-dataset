@@ -13,19 +13,25 @@ Analysts and data engineers often need reliable pipelines to transform raw datas
    - Loaded Movie CSV datasets into Snowflake  
    - Configured dbt seeds for small reference tables
    - Used Airflow DAGs to automate dbt runs on a schedule
+<img width="1160" height="754" alt="airflow" src="https://github.com/user-attachments/assets/3684d8df-d321-489e-b500-0d8b49c17442" />
 
 2. **Data Transformation with dbt**  
    - Created **dimension (`dim`) tables**: movies, users, tags.  
    - Created **fact (`fct`) tables**: ratings, genome scores.  
-  - **Snapshots**: tracked historical changes in source data to manage slowly changing dimensions.  
+  - **Snapshots**: tracked historical changes in source data to manage slowly changing dimensions.
+<img width="1910" height="835" alt="s (snapshot)- 1" src="https://github.com/user-attachments/assets/009db2cc-d5c5-41e2-a560-d894e2370d2d" />
+
   - **dbt Model Types**:  
     - **Table**: full materialization for core tables.  
     - **View**: lightweight transformations for analysis.  
     - **Incremental**: processed only new or updated records to optimize large datasets.  
     - **Ephemeral**: temporary models for reusable in-memory transformations.  
     - **Seed**: preloaded static reference datasets.  
-    - **Analysis**: queries for exploration and insights.  
-   - Applied dbt tests to ensure data quality.  
+    - **Analysis**: queries for exploration and insights.
+<img width="1823" height="880" alt="s- anlaysis" src="https://github.com/user-attachments/assets/ee61e187-bf51-480f-9eba-5f2a94fcc5b6" />
+      
+   - Applied dbt tests to ensure data quality.
+<img width="1113" height="1026" alt="Screenshot 2025-12-18 at 10 53 39 PM" src="https://github.com/user-attachments/assets/6d0908f5-c296-4663-bb8a-837a97198050" />
 
 3. **Workflow Orchestration with Airflow**  
    - Scheduled dbt runs daily via Airflow DAGs.  
